@@ -23,7 +23,16 @@ git add file
 git commit -m "messaggio"
 git push
 
-#
-git checkout develop
-git checkout -b feature/nuova_funzione
+
+# creazione branch develop
+git branch develop
+git push origin develop
+
+# installazione git flow
+sudo apt-get install git-flow
+
+# initialize git flow on repo
+# in root project
+git flow init
+
 
